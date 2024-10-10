@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/jmckenzie17/semantic-release/compare/v1.0.0...v1.1.0) (2024-10-10)
+
+
+### Features
+
+* shuper shweet feature foo ([96dffed](https://github.com/jmckenzie17/semantic-release/commit/96dffedfb6d371adec655eb5e5073155115bdb30))
+
 # 1.0.0 (2024-10-10)
 
 
