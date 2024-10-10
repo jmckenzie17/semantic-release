@@ -11,6 +11,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Semantic Release
+        with:
+          gh_token: ${{secrets.GH_TOKEN}}
         uses: cycjimmy/semantic-release-action@v4
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ gh_token }}
